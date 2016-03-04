@@ -1,0 +1,18 @@
+h2 {
+
+}
+
+/*.changeopacity {
+  background-color: gray;
+  opacity: .4;
+}*/
+
+.container-fluid {
+position:absolute;
+padding-left: 33.333333%;
+padding-right: 33.333333%;
+max-width: 100%;
+background-color: gray;
+opacity: .4;
+z-index: 1;
+}
