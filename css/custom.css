@@ -1,31 +1,29 @@
 h2 {
-  font-size: 3.5vw;
+  font-size: 3.8vw;
   margin: auto;
   justify-content: center;
 }
 
-/*.changeopacity {
-  background-color: gray;
-  opacity: .4;
-}*/
-
-.container-fluid {
-  position:absolute;
-  text-align: center;
-  margin: auto;
-  width: 65%;
-  background-color: gray;
-  z-index: 1;
-  /*opacity: .3;*/
+img {
+  position: relative;
 }
 
-.textbox {
-  font-size: 1.5vw;
+.container-fluid {
+  font-size: 1.6vw;
+  font-weight: bolder;
   position:absolute;
   text-align: center;
-  margin: auto;
-  width: 65%;
-  background-color: gray;
-  z-index: 2;
-  flex-shrink: 1;
+  display:block;
+  margin: 3% 3% 3% 3%;
+  /*width: 65%;*/
+  z-index: 1;
+  border-radius: 25px;
+  background-color: #D5D8DC;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.container-fluid p {
+  color: #000000;
 }
