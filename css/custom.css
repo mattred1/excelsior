@@ -11,24 +11,24 @@ img {
 .container-fluid {
   font-size: 1.6vw;
   font-weight: bolder;
+  color: white;
   position:absolute;
   text-align: center;
   display:block;
-  margin: 23% 3% 3% 3%;
-  /*width: 65%;*/
+    margin: 12% 0% 0% 16%;
+  width: 65%;
   z-index: 1;
   border-radius: 25px;
-  background-color: #D5D8DC;
+  background-color: #000;
   border: 1px solid black;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 .container-fluid p {
-  color: #000000;
+  color: white;
 }
 
 a {
-  text-decoration-style: wavy;
-  text-decoration-color:black;
+  color: white;
 }
