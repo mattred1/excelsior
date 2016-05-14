@@ -1,2 +1,2 @@
-var test=5;
-document.write(test);
+// var test=5;
+// document.write(test);
