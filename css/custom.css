@@ -8,8 +8,16 @@ h1 {
   /*justify-content: center;*/
 }
 
+nav {
+  z-index: 2;
+}
+
 img {
   position: relative;
+}
+
+.textbox {
+  margin-top: 5%;
 }
 
 .container-fluid {
@@ -19,7 +27,7 @@ img {
   position:absolute;
   text-align: center;
   display:block;
-  margin: 12% 0% 0% 16%;
+  /*margin: 12% 0% 0% 16%;*/
   width: 65%;
   z-index: 1;
   border-radius: 25px;
