@@ -17,7 +17,7 @@ img {
 }
 
 .headerimg {
-  background-image: url('images/rockets.jpg');
+  background-image: url("../images/rockets.jpg");
 }
 .aboutusimg {
   background-image: image(..images);
