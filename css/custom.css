@@ -1,16 +1,9 @@
 h1 {
   font-size: 3.8vw;
-  /*margin: 20%;*/
   text-align: center;
   position:absolute;
-  /*z-index: 2;*/
   color: white;
-  /*justify-content: center;*/
 }
-
-/*nav {
-  z-index: 2;
-}*/
 
 img {
   position: relative;
@@ -18,7 +11,9 @@ img {
 
 .headerimg {
   background-image: url("../images/rockets.jpg");
+
 }
+
 .aboutusimg {
   background-image: image(..images);
 }
@@ -34,9 +29,7 @@ img {
   position:absolute;
   text-align: center;
   display:block;
-  /*margin: 12% 0% 0% 16%;*/
   width: 65%;
-  /*z-index: 1;*/
   border-radius: 25px;
   background-color: #000;
   border: 1px solid black;
