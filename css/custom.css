@@ -10,12 +10,28 @@
 }
 
 .aboutusimg {
-  background-image: url("..images/surf.jpg");
+  background-image: url("../images/surf.jpg");
 }
 
-/*.textbox {
+.wedoimg {
+  background-img: url("../images/motocross.jpg");
+}
+
+.careersimg {
+  background-img: url("../images/dive.jpg");
+
+}
+
+.contactimg {
+  background-img: url("../images/plane.jpg");
+}
+
+
+
+.textbox {
   margin-top: 5%;
-}*/
+  color: white;
+}
 
 /*.container-fluid {
   font-size: 1.6vw;
