@@ -14,16 +14,15 @@
 }
 
 .wedoimg {
-  background-img: url("../images/motocross.jpg");
+  background-image: url("../images/motocross.jpg");
 }
 
 .careersimg {
-  background-img: url("../images/dive.jpg");
-
+  background-image: url("../images/dive.jpg");
 }
 
 .contactimg {
-  background-img: url("../images/plane.jpg");
+  background-image: url("../images/plane.jpg");
 }
 
 
