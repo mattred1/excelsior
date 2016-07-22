@@ -2,6 +2,17 @@ h1 {
   font-size: 3.8vw;
   text-align: center;
   color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: verdana;
+}
+
+ul {
+  margin: 0 0 0 0;
+}
+
+p {
+  margin: 0 0 0 0;
 }
 
 .headerimg {
@@ -25,12 +36,10 @@ h1 {
 }
 
 .textbox {
-  margin-top: 5%;
   color: white;
 }
 
 .container-fluid {
-  font-size: 1.6vw;
   font-weight: bolder;
   color: white;
   display:block;
@@ -39,7 +48,7 @@ h1 {
   background-color: #000;
   border: 1px solid black;
   opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier
+  filter: alpha(opacity=60); /* For IE8 and earlier*/
 
 
 
@@ -47,7 +56,8 @@ h1 {
   color: white;
 }*/
 
+
 a:hover, a:link, a:visited, a:active {
-  color: white;
   text-decoration:none;
+  color:white;
 }
