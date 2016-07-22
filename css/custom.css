@@ -29,6 +29,11 @@ p {
 
 .aboutusimg {
   background-image: url("../images/surf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+
 }
 
 .wedoimg {
