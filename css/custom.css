@@ -1,6 +1,6 @@
-body {
+/*body {
   width: 90%;
-}
+}*/
 
 h1 {
   font-size: 3.8vw;
@@ -21,6 +21,10 @@ p {
 
 .headerimg {
   background-image: url("../images/rockets.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: auto;
 }
 
 .aboutusimg {
