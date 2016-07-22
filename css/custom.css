@@ -29,10 +29,10 @@ p {
 
 .aboutusimg {
   background-image: url("../images/surf.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: auto;
+/* FIXME:  */  background-size: cover;
+/* FIXME:  */  background-repeat: no-repeat;
+/* FIXME:  */  width: 100%;
+/* FIXME:  */  height: auto;
 
 }
 
