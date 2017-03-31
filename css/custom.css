@@ -11,10 +11,11 @@ ul, ul > li {
   display: inline;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
-a {
-  color: black;
+.headerimg a {
+  color: white;
 }
 
 p {
@@ -23,29 +24,29 @@ p {
 
 .headerimg {
   background-image: url("../images/rockets.jpg");
-  background-size: 100vw 100vh;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
 }
 
+.usimg {
+  background-image: url("../images/us.jpg");
+}
 
 .textbox {
-  color: white;
+  color: black;
 }
 
-.container-fluid {
-  font-weight: bolder;
-  color: white;
-  display:block;
-  width: 65%;
-  border-radius: 25px;
-  background-color: #000;
-  border: 1px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier*/
 
 a:hover, a:link, a:visited, a:active {
   text-decoration:none;
-  color:white;
+  color: black;
 }
 
 @media screen
