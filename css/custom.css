@@ -33,13 +33,19 @@ p {
   -moz-background-size: cover;
   -o-background-size: cover;
   overflow: visible;
-
 }
 
 .usimg {
   background-image: url("../images/us.jpg");
 }
 
+.aboutme {}
+
+.dayjob {}
+
+.imavailable {}
+
+.contact {}
 
 
 a:hover, a:link, a:visited, a:active {
