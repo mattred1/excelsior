@@ -27,25 +27,6 @@ p {
   background-repeat: no-repeat;
 }
 
-.aboutusimg {
-  background-image: url("../images/surf.jpg");
-  background-size: cover;
-/* FIXME:  */  background-repeat: no-repeat;
-/* FIXME:  */  width: auto;
-/* FIXME:  */  height: 100%;
-}
-
-.wedoimg {
-  background-image: url("../images/motocross.jpg");
-}
-
-.careersimg {
-  background-image: url("../images/dive.jpg");
-}
-
-.contactimg {
-  background-image: url("../images/plane.jpg");
-}
 
 .textbox {
   color: white;
