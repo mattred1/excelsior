@@ -32,6 +32,7 @@ p {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  overflow: visible;
 
 }
 
@@ -47,6 +48,11 @@ p {
 a:hover, a:link, a:visited, a:active {
   text-decoration:none;
   color: black;
+}
+
+button {
+    color: black;
+    background: rgba(153,204,255, .9);
 }
 
 @media screen
