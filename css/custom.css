@@ -1,3 +1,7 @@
+body {
+  line-height: 1.5;
+}
+
 h1 {
   font-size: 3.8vw;
   text-align: center;
@@ -7,6 +11,10 @@ h1 {
   font-family: verdana;
 }
 
+h1 a {
+  color: black;
+}
+
 ul, ul > li {
   display: inline;
   margin: 0;
@@ -14,7 +22,7 @@ ul, ul > li {
   color: white;
 }
 
-.headerimg a {
+.list-inline a {
   color: white;
 }
 
@@ -22,35 +30,50 @@ p {
   margin: 0;
 }
 
-.headerimg {
+.home-content {
   background-image: url("../images/rockets.jpg");
-  height: 100%;
+  background-attachment: fixed;
+  background-color: #222222;
+  background-position: center left;
+  background-repeat: no-repeat;
+  display: block;
   width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  overflow: visible;
 }
 
 .usimg {
   background-image: url("../images/us.jpg");
 }
 
-.aboutme {}
+.aboutme {
+  background-color: white;
+}
 
-.dayjob {}
+.dayjob {
+  background-color: #ADADAD;
+}
 
-.imavailable {}
+.imavailable {
+  background-color: white;
+}
 
-.contact {}
+/*Not working - jrWebDev and Betamore links*/
+.imavailable > a {
+  text-decoration: underline;
+}
+
+.contact {
+  background-color: black;
+}
+
+/*Not working - make h1a for contact font color white*/
+.imavailable > a {
+  color: white;
+}
 
 
 a:hover, a:link, a:visited, a:active {
   text-decoration:none;
-  color: black;
 }
 
 button {
