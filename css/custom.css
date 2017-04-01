@@ -3,12 +3,14 @@ body {
 }
 
 h1 {
-  font-size: 3.8vw;
+  font-size: 4vh;
   text-align: center;
   color: white;
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: verdana;
+  /*transform: translateY(50%);*/
+
 }
 
 h1 a {
@@ -28,17 +30,15 @@ ul, ul > li {
 
 p {
   margin: 0;
+  font-size: 3vh;
 }
 
 .home-content {
   background-image: url("../images/rockets.jpg");
-  background-attachment: fixed;
-  background-color: #222222;
-  background-position: center left;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  display: block;
-  width: 100%;
-  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 .usimg {
