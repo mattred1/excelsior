@@ -14,9 +14,9 @@ h1 {
 
 }
 
-h1 a {
+/*h1 a {
   color: black;
-}
+}*/
 
 ul, ul > li {
   display: inline;
@@ -49,16 +49,19 @@ p {
 .aboutme {
   background-color: white;
   margin: 15% 0;
+  padding: 10%;
 }
 
 .dayjob {
   background-color: #ADADAD;
   margin: 15% 0;
+  padding: 10%;
 }
 
 .imavailable {
   background-color: white;
   margin: 15% 0;
+  padding: 10%;
 }
 
 /*Not working - jrWebDev and Betamore links*/
@@ -69,10 +72,16 @@ p {
 .contact {
   background-color: black;
   margin: 15% 0;
+  padding: 10%;
 }
 
 /*Not working - make h1a for contact font color white*/
-.imavailable > a {
+.contact > a {
+  color: white;
+}
+
+/*Not working - make h1a for contact font color white*/
+.imavailable > h1 {
   color: white;
 }
 
